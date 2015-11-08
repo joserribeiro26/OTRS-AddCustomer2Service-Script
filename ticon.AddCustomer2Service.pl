@@ -28,7 +28,7 @@ getopt( 'su', \%Opts );
 
 if ( $Opts{h} || !$Opts{u} || !$Opts{s} ) {
 print "otrs.AddCustomer2Service.pl – add customer to a service\n";
-print "Copyright (C) 2001-2015 OTRS AG, http://otrs.com/\n";
+print "Copyright (C) 2012 - 2015 TI Consultores, http://ti-con.com/\n";
 print "usage: otrs.AddCustomer2Service.pl -u customerlogin -s servicename \n";
 exit 1;
 }
